@@ -5,6 +5,9 @@ Component({
             type: 'parent',
         },
     },
+    options: {
+        multipleSlots: true,
+    },
     properties: {
         key: {
             type: String,
